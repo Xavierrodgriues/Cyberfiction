@@ -1,0 +1,11 @@
+{
+    "name": "project4",
+    "version": "24.8.0",
+    "description": "project4",
+    "license": "SEE LICENSE IN LICENSE.md",
+    "private": true,
+    "dependencies": {},
+    "engines": {
+        "node": ">=18"
+    }
+}

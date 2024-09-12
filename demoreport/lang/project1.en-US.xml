@@ -1,0 +1,664 @@
+<ew-language date="2024/2/20" id="en-US" author="e.World Technology Limited">
+  <project>
+    <phrase id="bodytitle" value="ifoodmate" />
+    <phrase id="footertext" value="&amp;copy;2023 e.World Technology Limited. All rights reserved." />
+    <menu id="1">
+      <phrase id="menutext" value="admin cred" />
+    </menu>
+    <menu id="2">
+      <phrase id="menutext" value="booked food" />
+    </menu>
+    <menu id="3">
+      <phrase id="menutext" value="booking report" />
+    </menu>
+    <menu id="4">
+      <phrase id="menutext" value="booking details" />
+    </menu>
+    <menu id="5">
+      <phrase id="menutext" value="booking order" />
+    </menu>
+    <menu id="6">
+      <phrase id="menutext" value="bookingorder report" />
+    </menu>
+    <menu id="7">
+      <phrase id="menutext" value="carousel" />
+    </menu>
+    <menu id="8">
+      <phrase id="menutext" value="contact details" />
+    </menu>
+    <menu id="9">
+      <phrase id="menutext" value="facilities" />
+    </menu>
+    <menu id="10">
+      <phrase id="menutext" value="features" />
+    </menu>
+    <menu id="11">
+      <phrase id="menutext" value="main course item" />
+    </menu>
+    <menu id="12">
+      <phrase id="menutext" value="manager cred" />
+    </menu>
+    <menu id="13">
+      <phrase id="menutext" value="menu" />
+    </menu>
+    <menu id="14">
+      <phrase id="menutext" value="rating review" />
+    </menu>
+    <menu id="15">
+      <phrase id="menutext" value="room facilities" />
+    </menu>
+    <menu id="16">
+      <phrase id="menutext" value="room features" />
+    </menu>
+    <menu id="17">
+      <phrase id="menutext" value="room images" />
+    </menu>
+    <menu id="18">
+      <phrase id="menutext" value="rooms" />
+    </menu>
+    <menu id="19">
+      <phrase id="menutext" value="settings" />
+    </menu>
+    <menu id="20">
+      <phrase id="menutext" value="starter item" />
+    </menu>
+    <menu id="21">
+      <phrase id="menutext" value="sweet item" />
+    </menu>
+    <menu id="22">
+      <phrase id="menutext" value="team details" />
+    </menu>
+    <menu id="23">
+      <phrase id="menutext" value="user cred" />
+    </menu>
+    <menu id="24">
+      <phrase id="menutext" value="user queries" />
+    </menu>
+    <menu id="25">
+      <phrase id="menutext" value="view 1" />
+    </menu>
+    <table id="admin_cred">
+      <phrase id="tblcaption" value="admin cred" />
+      <field id="sr_no">
+        <phrase id="fldcaption" value="sr no" />
+      </field>
+      <field id="admin_name">
+        <phrase id="fldcaption" value="admin name" />
+      </field>
+      <field id="admin_pass">
+        <phrase id="fldcaption" value="admin pass" />
+      </field>
+    </table>
+    <table id="booked_food">
+      <phrase id="tblcaption" value="booked food" />
+      <field id="id">
+        <phrase id="fldcaption" value="id" />
+      </field>
+      <field id="booking_id">
+        <phrase id="fldcaption" value="booking id" />
+      </field>
+      <field id="name">
+        <phrase id="fldcaption" value="name" />
+      </field>
+      <field id="category">
+        <phrase id="fldcaption" value="category" />
+      </field>
+    </table>
+    <table id="booking_report">
+      <phrase id="tblcaption" value="booking report" />
+      <field id="booking_id">
+        <phrase id="fldcaption" value="booking id" />
+      </field>
+      <field id="check_in">
+        <phrase id="fldcaption" value="check in" />
+      </field>
+      <field id="check_out">
+        <phrase id="fldcaption" value="check out" />
+      </field>
+      <field id="arrival">
+        <phrase id="fldcaption" value="arrival" />
+      </field>
+      <field id="datentime">
+        <phrase id="fldcaption" value="datentime" />
+      </field>
+      <field id="rate_review">
+        <phrase id="fldcaption" value="rate review" />
+      </field>
+      <field id="trans_resp_mesg">
+        <phrase id="fldcaption" value="trans resp mesg" />
+      </field>
+      <field id="trans_status">
+        <phrase id="fldcaption" value="trans status" />
+      </field>
+      <field id="trans_amt">
+        <phrase id="fldcaption" value="trans amt" />
+      </field>
+      <field id="sweet_dish_name">
+        <phrase id="fldcaption" value="sweet dish name" />
+      </field>
+      <field id="refund">
+        <phrase id="fldcaption" value="refund" />
+      </field>
+      <field id="booking_status">
+        <phrase id="fldcaption" value="booking status" />
+      </field>
+      <field id="main_course_name">
+        <phrase id="fldcaption" value="main course name" />
+      </field>
+      <field id="starter_name">
+        <phrase id="fldcaption" value="starter name" />
+      </field>
+      <field id="order_id">
+        <phrase id="fldcaption" value="order id" />
+      </field>
+      <field id="name">
+        <phrase id="fldcaption" value="name" />
+      </field>
+      <field id="area">
+        <phrase id="fldcaption" value="area" />
+      </field>
+      <field id="price">
+        <phrase id="fldcaption" value="price" />
+      </field>
+      <field id="quantity">
+        <phrase id="fldcaption" value="quantity" />
+      </field>
+      <field id="removed">
+        <phrase id="fldcaption" value="removed" />
+      </field>
+      <field id="status">
+        <phrase id="fldcaption" value="status" />
+      </field>
+      <field id="name1">
+        <phrase id="fldcaption" value="name 1" />
+      </field>
+      <field id="_email">
+        <phrase id="fldcaption" value="email" />
+      </field>
+      <field id="phonenum">
+        <phrase id="fldcaption" value="phonenum" />
+      </field>
+      <field id="is_verified">
+        <phrase id="fldcaption" value="is verified" />
+      </field>
+    </table>
+    <table id="booking_details">
+      <phrase id="tblcaption" value="booking details" />
+      <field id="sr_no">
+        <phrase id="fldcaption" value="sr no" />
+      </field>
+      <field id="booking_id">
+        <phrase id="fldcaption" value="booking id" />
+      </field>
+      <field id="room_name">
+        <phrase id="fldcaption" value="room name" />
+      </field>
+      <field id="price">
+        <phrase id="fldcaption" value="price" />
+      </field>
+      <field id="total_pay">
+        <phrase id="fldcaption" value="total pay" />
+      </field>
+      <field id="room_no">
+        <phrase id="fldcaption" value="room no" />
+      </field>
+      <field id="user_name">
+        <phrase id="fldcaption" value="user name" />
+      </field>
+      <field id="phonenum">
+        <phrase id="fldcaption" value="phonenum" />
+      </field>
+      <field id="address">
+        <phrase id="fldcaption" value="address" />
+      </field>
+    </table>
+    <table id="booking_order">
+      <phrase id="tblcaption" value="booking order" />
+      <field id="booking_id">
+        <phrase id="fldcaption" value="booking id" />
+      </field>
+      <field id="user_id">
+        <phrase id="fldcaption" value="user id" />
+      </field>
+      <field id="room_id">
+        <phrase id="fldcaption" value="room id" />
+      </field>
+      <field id="check_in">
+        <phrase id="fldcaption" value="check in" />
+      </field>
+      <field id="check_out">
+        <phrase id="fldcaption" value="check out" />
+      </field>
+      <field id="arrival">
+        <phrase id="fldcaption" value="arrival" />
+      </field>
+      <field id="refund">
+        <phrase id="fldcaption" value="refund" />
+      </field>
+      <field id="booking_status">
+        <phrase id="fldcaption" value="booking status" />
+      </field>
+      <field id="order_id">
+        <phrase id="fldcaption" value="order id" />
+      </field>
+      <field id="starter_name">
+        <phrase id="fldcaption" value="starter name" />
+      </field>
+      <field id="main_course_name">
+        <phrase id="fldcaption" value="main course name" />
+      </field>
+      <field id="sweet_dish_name">
+        <phrase id="fldcaption" value="sweet dish name" />
+      </field>
+      <field id="trans_id">
+        <phrase id="fldcaption" value="trans id" />
+      </field>
+      <field id="trans_amt">
+        <phrase id="fldcaption" value="trans amt" />
+      </field>
+      <field id="trans_status">
+        <phrase id="fldcaption" value="trans status" />
+      </field>
+      <field id="trans_resp_mesg">
+        <phrase id="fldcaption" value="trans resp mesg" />
+      </field>
+      <field id="rate_review">
+        <phrase id="fldcaption" value="rate review" />
+      </field>
+      <field id="datentime">
+        <phrase id="fldcaption" value="datentime" />
+      </field>
+    </table>
+    <table id="bookingorder_report">
+      <phrase id="tblcaption" value="bookingorder report" />
+      <field id="booking_id">
+        <phrase id="fldcaption" value="booking id" />
+      </field>
+      <field id="check_in">
+        <phrase id="fldcaption" value="check in" />
+      </field>
+      <field id="check_out">
+        <phrase id="fldcaption" value="check out" />
+      </field>
+      <field id="refund">
+        <phrase id="fldcaption" value="refund" />
+      </field>
+      <field id="booking_status">
+        <phrase id="fldcaption" value="booking status" />
+      </field>
+      <field id="trans_resp_mesg">
+        <phrase id="fldcaption" value="trans resp mesg" />
+      </field>
+      <field id="datentime">
+        <phrase id="fldcaption" value="datentime" />
+      </field>
+      <field id="name">
+        <phrase id="fldcaption" value="name" />
+      </field>
+      <field id="name1">
+        <phrase id="fldcaption" value="name 1" />
+      </field>
+      <field id="price">
+        <phrase id="fldcaption" value="price" />
+      </field>
+      <field id="status">
+        <phrase id="fldcaption" value="status" />
+      </field>
+      <field id="is_verified">
+        <phrase id="fldcaption" value="is verified" />
+      </field>
+    </table>
+    <table id="carousel">
+      <phrase id="tblcaption" value="carousel" />
+      <field id="sr_no">
+        <phrase id="fldcaption" value="sr no" />
+      </field>
+      <field id="image">
+        <phrase id="fldcaption" value="image" />
+      </field>
+    </table>
+    <table id="contact_details">
+      <phrase id="tblcaption" value="contact details" />
+      <field id="sr_no">
+        <phrase id="fldcaption" value="sr no" />
+      </field>
+      <field id="address">
+        <phrase id="fldcaption" value="address" />
+      </field>
+      <field id="gmap">
+        <phrase id="fldcaption" value="gmap" />
+      </field>
+      <field id="pn1">
+        <phrase id="fldcaption" value="pn 1" />
+      </field>
+      <field id="pn2">
+        <phrase id="fldcaption" value="pn 2" />
+      </field>
+      <field id="_email">
+        <phrase id="fldcaption" value="email" />
+      </field>
+      <field id="fb">
+        <phrase id="fldcaption" value="fb" />
+      </field>
+      <field id="insta">
+        <phrase id="fldcaption" value="insta" />
+      </field>
+      <field id="tw">
+        <phrase id="fldcaption" value="tw" />
+      </field>
+      <field id="iframe">
+        <phrase id="fldcaption" value="iframe" />
+      </field>
+    </table>
+    <table id="facilities">
+      <phrase id="tblcaption" value="facilities" />
+      <field id="id">
+        <phrase id="fldcaption" value="id" />
+      </field>
+      <field id="icon">
+        <phrase id="fldcaption" value="icon" />
+      </field>
+      <field id="name">
+        <phrase id="fldcaption" value="name" />
+      </field>
+      <field id="description">
+        <phrase id="fldcaption" value="description" />
+      </field>
+    </table>
+    <table id="features">
+      <phrase id="tblcaption" value="features" />
+      <field id="sr_no">
+        <phrase id="fldcaption" value="sr no" />
+      </field>
+      <field id="name">
+        <phrase id="fldcaption" value="name" />
+      </field>
+    </table>
+    <table id="main_course_item">
+      <phrase id="tblcaption" value="main course item" />
+      <field id="id">
+        <phrase id="fldcaption" value="id" />
+      </field>
+      <field id="name">
+        <phrase id="fldcaption" value="name" />
+      </field>
+      <field id="price">
+        <phrase id="fldcaption" value="price" />
+      </field>
+    </table>
+    <table id="manager_cred">
+      <phrase id="tblcaption" value="manager cred" />
+      <field id="sr_no">
+        <phrase id="fldcaption" value="sr no" />
+      </field>
+      <field id="manager_name">
+        <phrase id="fldcaption" value="manager name" />
+      </field>
+      <field id="manager_pass">
+        <phrase id="fldcaption" value="manager pass" />
+      </field>
+    </table>
+    <table id="menu2">
+      <phrase id="tblcaption" value="menu" />
+      <field id="id">
+        <phrase id="fldcaption" value="id" />
+      </field>
+      <field id="icon">
+        <phrase id="fldcaption" value="icon" />
+      </field>
+      <field id="name">
+        <phrase id="fldcaption" value="name" />
+      </field>
+      <field id="description">
+        <phrase id="fldcaption" value="description" />
+      </field>
+      <field id="price">
+        <phrase id="fldcaption" value="price" />
+      </field>
+    </table>
+    <table id="rating_review">
+      <phrase id="tblcaption" value="rating review" />
+      <field id="sr_no">
+        <phrase id="fldcaption" value="sr no" />
+      </field>
+      <field id="booking_id">
+        <phrase id="fldcaption" value="booking id" />
+      </field>
+      <field id="room_id">
+        <phrase id="fldcaption" value="room id" />
+      </field>
+      <field id="user_id">
+        <phrase id="fldcaption" value="user id" />
+      </field>
+      <field id="rating">
+        <phrase id="fldcaption" value="rating" />
+      </field>
+      <field id="review">
+        <phrase id="fldcaption" value="review" />
+      </field>
+      <field id="seen">
+        <phrase id="fldcaption" value="seen" />
+      </field>
+      <field id="datentime">
+        <phrase id="fldcaption" value="datentime" />
+      </field>
+    </table>
+    <table id="room_facilities">
+      <phrase id="tblcaption" value="room facilities" />
+      <field id="sr_no">
+        <phrase id="fldcaption" value="sr no" />
+      </field>
+      <field id="room_id">
+        <phrase id="fldcaption" value="room id" />
+      </field>
+      <field id="facilities_id">
+        <phrase id="fldcaption" value="facilities id" />
+      </field>
+    </table>
+    <table id="room_features">
+      <phrase id="tblcaption" value="room features" />
+      <field id="sr_no">
+        <phrase id="fldcaption" value="sr no" />
+      </field>
+      <field id="room_id">
+        <phrase id="fldcaption" value="room id" />
+      </field>
+      <field id="features_id">
+        <phrase id="fldcaption" value="features id" />
+      </field>
+    </table>
+    <table id="room_images">
+      <phrase id="tblcaption" value="room images" />
+      <field id="sr_no">
+        <phrase id="fldcaption" value="sr no" />
+      </field>
+      <field id="room_id">
+        <phrase id="fldcaption" value="room id" />
+      </field>
+      <field id="image">
+        <phrase id="fldcaption" value="image" />
+      </field>
+      <field id="thumb">
+        <phrase id="fldcaption" value="thumb" />
+      </field>
+    </table>
+    <table id="rooms">
+      <phrase id="tblcaption" value="rooms" />
+      <field id="id">
+        <phrase id="fldcaption" value="id" />
+      </field>
+      <field id="name">
+        <phrase id="fldcaption" value="name" />
+      </field>
+      <field id="area">
+        <phrase id="fldcaption" value="area" />
+      </field>
+      <field id="price">
+        <phrase id="fldcaption" value="price" />
+      </field>
+      <field id="quantity">
+        <phrase id="fldcaption" value="quantity" />
+      </field>
+      <field id="adult">
+        <phrase id="fldcaption" value="adult" />
+      </field>
+      <field id="children">
+        <phrase id="fldcaption" value="children" />
+      </field>
+      <field id="description">
+        <phrase id="fldcaption" value="description" />
+      </field>
+      <field id="status">
+        <phrase id="fldcaption" value="status" />
+      </field>
+      <field id="removed">
+        <phrase id="fldcaption" value="removed" />
+      </field>
+    </table>
+    <table id="settings">
+      <phrase id="tblcaption" value="settings" />
+      <field id="sr_no">
+        <phrase id="fldcaption" value="sr no" />
+      </field>
+      <field id="site_title">
+        <phrase id="fldcaption" value="site title" />
+      </field>
+      <field id="site_about">
+        <phrase id="fldcaption" value="site about" />
+      </field>
+      <field id="shutdown">
+        <phrase id="fldcaption" value="shutdown" />
+        <phrase id="fldtagvalue1" value="1" />
+        <phrase id="fldtagcaption1" value="Yes" />
+        <phrase id="fldtagvalue2" value="0" />
+        <phrase id="fldtagcaption2" value="No" />
+      </field>
+    </table>
+    <table id="starter_item">
+      <phrase id="tblcaption" value="starter item" />
+      <field id="id">
+        <phrase id="fldcaption" value="id" />
+      </field>
+      <field id="name">
+        <phrase id="fldcaption" value="name" />
+      </field>
+      <field id="price">
+        <phrase id="fldcaption" value="price" />
+      </field>
+    </table>
+    <table id="sweet_item">
+      <phrase id="tblcaption" value="sweet item" />
+      <field id="id">
+        <phrase id="fldcaption" value="id" />
+      </field>
+      <field id="name">
+        <phrase id="fldcaption" value="name" />
+      </field>
+      <field id="price">
+        <phrase id="fldcaption" value="price" />
+      </field>
+    </table>
+    <table id="team_details">
+      <phrase id="tblcaption" value="team details" />
+      <field id="sr_no">
+        <phrase id="fldcaption" value="sr no" />
+      </field>
+      <field id="name">
+        <phrase id="fldcaption" value="name" />
+      </field>
+      <field id="picture">
+        <phrase id="fldcaption" value="picture" />
+      </field>
+    </table>
+    <table id="user_cred">
+      <phrase id="tblcaption" value="user cred" />
+      <field id="id">
+        <phrase id="fldcaption" value="id" />
+      </field>
+      <field id="name">
+        <phrase id="fldcaption" value="name" />
+      </field>
+      <field id="_email">
+        <phrase id="fldcaption" value="email" />
+      </field>
+      <field id="address">
+        <phrase id="fldcaption" value="address" />
+      </field>
+      <field id="phonenum">
+        <phrase id="fldcaption" value="phonenum" />
+      </field>
+      <field id="pincode">
+        <phrase id="fldcaption" value="pincode" />
+      </field>
+      <field id="dob">
+        <phrase id="fldcaption" value="dob" />
+      </field>
+      <field id="_profile">
+        <phrase id="fldcaption" value="profile" />
+      </field>
+      <field id="_password">
+        <phrase id="fldcaption" value="password" />
+      </field>
+      <field id="is_verified">
+        <phrase id="fldcaption" value="is verified" />
+      </field>
+      <field id="_token">
+        <phrase id="fldcaption" value="token" />
+      </field>
+      <field id="t_expire">
+        <phrase id="fldcaption" value="t expire" />
+      </field>
+      <field id="status">
+        <phrase id="fldcaption" value="status" />
+      </field>
+      <field id="datentime">
+        <phrase id="fldcaption" value="datentime" />
+      </field>
+    </table>
+    <table id="user_queries">
+      <phrase id="tblcaption" value="user queries" />
+      <field id="sr_no">
+        <phrase id="fldcaption" value="sr no" />
+      </field>
+      <field id="name">
+        <phrase id="fldcaption" value="name" />
+      </field>
+      <field id="_email">
+        <phrase id="fldcaption" value="email" />
+      </field>
+      <field id="subject">
+        <phrase id="fldcaption" value="subject" />
+      </field>
+      <field id="_message">
+        <phrase id="fldcaption" value="message" />
+      </field>
+      <field id="datentime">
+        <phrase id="fldcaption" value="datentime" />
+      </field>
+      <field id="seen">
+        <phrase id="fldcaption" value="seen" />
+      </field>
+    </table>
+    <table id="view1">
+      <phrase id="tblcaption" value="view 1" />
+      <field id="id">
+        <phrase id="fldcaption" value="id" />
+      </field>
+      <field id="booking_id">
+        <phrase id="fldcaption" value="booking id" />
+      </field>
+      <field id="name">
+        <phrase id="fldcaption" value="name" />
+      </field>
+      <field id="area">
+        <phrase id="fldcaption" value="area" />
+      </field>
+      <field id="price">
+        <phrase id="fldcaption" value="price" />
+      </field>
+      <field id="trans_amt">
+        <phrase id="fldcaption" value="trans amt" />
+      </field>
+    </table>
+  </project>
+</ew-language>
